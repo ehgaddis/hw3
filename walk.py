@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-Hospital Navigator - NO ODOMETRY VERSION
-Tracks distance using velocity integration instead of odometry
-"""
+
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
